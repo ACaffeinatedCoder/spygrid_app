@@ -1,0 +1,81 @@
+.timeline-overall {
+    min-height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+      to bottom, 
+      #B3CDE0 0%,   /* Dawn Blue */
+      #87CEEB 16%,  /* Morning Sky Blue */
+      #00BFFF 33%,  /* Noon Blue */
+      #1E90FF 50%,  /* Afternoon Sky Blue */
+      #4682B4 66%,  /* Dusk Blue */
+      #4169E1 83%,  /* Twilight Blue */
+      #191970 100%  /* Night Blue */
+    );
+}
+
+.timeline-header {
+min-height: 2.5%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: left;
+font-size: calc(10px + 2vmin);
+color: white;
+width: auto;
+padding-top: 0.5%;
+padding-left: 1%;
+}
+
+.timeline-subheader1 {
+min-height: 2.5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+width: auto;
+padding-top: 1%;
+}
+
+.timeline-subheader1 p{
+    color: #fff; /* Adjust the text color as needed */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), /* First layer of shadow */
+                 0 0 20px rgba(255, 255, 255, 0.4), /* Second layer of shadow */
+                 0 0 30px rgba(255, 255, 255, 0.3), /* Third layer of shadow */
+                 0 0 40px rgba(255, 255, 255, 0.2); /* Fourth layer of shadow */
+  
+}
+
+.timeline-body {
+    min-height:100%;
+display: flex;
+flex: 1;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+width: auto;
+padding-top: 1%;
+}
+
+.timeline-newEntry {
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: left;
+font-size: calc(10px + 2vmin);
+color: white;
+width: auto;
+padding-top: 1%;
+padding-left: 0.5%;
+padding-right: 0.5%;
+padding-bottom: 0.5%;
+}
+
+.timeline-newEntry input{
+    width: 10%;
+}

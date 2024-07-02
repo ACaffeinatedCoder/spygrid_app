@@ -1,0 +1,166 @@
+.card-timeline {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 14px; /* Rounded corners */
+  padding: 15px; /* Padding for content */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 25%; /* Adjust width as needed */
+  height: auto;
+  margin: 0.5%; /* Add spacing between cards */
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  background-color: #525b6b47;
+  background-image: url('../photos/calendar_Freepik.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-queue {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 14px; /* Rounded corners */
+  padding: 15px; /* Padding for content */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 25%; /* Adjust width as needed */
+  height: auto;
+  margin: 0.5%; /* Add spacing between cards */
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  background-color: #525b6b47;
+  background-image: url('../photos/queue_Ethisham\ Abid.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-quotes {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 14px; /* Rounded corners */
+  padding: 15px; /* Padding for content */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 25%; /* Adjust width as needed */
+  height: auto;
+  margin: 0.5%; /* Add spacing between cards */
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  background-color: #525b6b47;
+  background-image: url('../photos/quotes_Freepik.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-poetry {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 14px; /* Rounded corners */
+  padding: 15px; /* Padding for content */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 25%; /* Adjust width as needed */
+  height: auto;
+  margin: 0.5%; /* Add spacing between cards */
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  background-color: #525b6b47;
+  background-image: url('../photos/poetry_Freepik.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-timeline:hover {
+background-color: #282c34b3;
+color: aliceblue;
+box-shadow: 3px 3px 15px #fff;
+}
+
+.card-queue:hover {
+  background-color: #282c34b3;
+  color: aliceblue;
+  box-shadow: 3px 3px 15px #fff;
+}
+
+.card-quotes:hover {
+  background-color: #282c34b3;
+  color: aliceblue;
+  box-shadow: 3px 3px 15px #fff;
+}
+
+.card-poetry:hover {
+  background-color: #282c34b3;
+  color: aliceblue;
+  box-shadow: 3px 3px 15px #fff;
+}
+
+.card-container {
+  display: flex;
+  width: 100%; /* Adjust width as needed */
+  height: 50%; /* Adjust height as needed */
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header {
+min-height: 2.5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+width: auto;
+padding-top: 1%;
+}
+
+.page-header h1 {
+  color: #fff; /* Adjust the text color as needed */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), /* First layer of shadow */
+               0 0 20px rgba(255, 255, 255, 0.4), /* Second layer of shadow */
+               0 0 30px rgba(255, 255, 255, 0.3), /* Third layer of shadow */
+               0 0 40px rgba(255, 255, 255, 0.2); /* Fourth layer of shadow */
+
+}
+
+@keyframes catTrickle {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 100vh;
+  }
+}
+
+.overall-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+
+background-image: url('../photos/cat-bg-v2_spygrid.png');
+background-size: cover;
+background-repeat: repeat-y;
+animation: catTrickle 25s linear infinite;
+}
+
